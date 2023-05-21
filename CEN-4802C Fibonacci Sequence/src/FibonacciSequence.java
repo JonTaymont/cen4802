@@ -2,11 +2,22 @@
 // 5/21/2023
 // CEN-4802C
 
+/**
+ * @author Jonathan Taymont
+ * @version "%I%, %G%"
+ */
 public class FibonacciSequence
 {
     public static class RecursiveFibonacci extends Thread
     {
         public Integer n = 0;
+
+        /**
+         * A recursive method that returns the nth term in the Fibonacci sequence.
+         *
+         * @param n is the variable being passed into the fibonacci method.
+         * @return the value of n after being passed into the fibonacci method.
+         */
         int fibonacci(int n)
         {
             if (n == 0)
